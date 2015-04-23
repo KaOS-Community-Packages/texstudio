@@ -1,6 +1,6 @@
 pkgname=texstudio
 _srcname=texstudio
-pkgver=2.9.0
+pkgver=2.9.4
 pkgrel=1
 pkgdesc="Fork of TexMaker built with Qt5/Phonon that gives you an easy environment for all kind of LaTeX documents"
 arch=('x86_64')
@@ -12,7 +12,7 @@ optdepends=('okular: alternate pdf reader')
 install=texstudio.install
 source=("http://downloads.sourceforge.net/${_srcname}/${_srcname}-${pkgver}.tar.gz"
         'archlinux-phonon.patch')
-md5sums=('2eff83fdf55ed5918f6b1de4b86c53d1'
+md5sums=('398baea51cf9f9f15ab961da09efb263'
          '2b4bd3232e9f92271856f7daa318e6c7')
 
 build() {
