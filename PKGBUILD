@@ -1,6 +1,6 @@
 pkgname=texstudio
 pkgver=2.11.0
-pkgrel=1
+pkgrel=2
 pkgdesc="Fork of TexMaker built with Qt5/Phonon that gives you an easy environment for all kind of LaTeX documents"
 arch=('x86_64')
 url="http://texstudio.sourceforge.net/"
