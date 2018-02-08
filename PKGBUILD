@@ -1,14 +1,14 @@
 pkgname=texstudio
-pkgver=2.11.0
-pkgrel=2
+pkgver=2.12.6
+pkgrel=1
 pkgdesc="Fork of TexMaker built with Qt5/Phonon that gives you an easy environment for all kind of LaTeX documents"
 arch=('x86_64')
 url="http://texstudio.sourceforge.net/"
 license=('GPLv2')
-depends=('poppler-qt5' 'phonon-qt5' 'qt5-svg' 'qt5-script')
+depends=('poppler' 'phonon-qt5' 'qt5-svg' 'qt5-script')
 makedepends=('qt5-tools')
 source=("http://downloads.sourceforge.net/${pkgname}/${pkgname}-${pkgver}.tar.gz")
-md5sums=('9bfd48e82e9cb1a9f1bb3055c262e658')
+md5sums=('77e888ae0e909c3768b1632748816302')
 
 build() {
   echo '${srcdir}/${pkgname}${pkgver}/pdfviewer/PDFDocument.h'
