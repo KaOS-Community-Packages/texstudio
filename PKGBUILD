@@ -1,5 +1,5 @@
 pkgname=texstudio
-pkgver=2.12.10
+pkgver=2.12.14
 pkgrel=1
 pkgdesc="Fork of TexMaker built with Qt5/Phonon that gives you an easy environment for all kind of LaTeX documents"
 arch=('x86_64')
@@ -9,7 +9,7 @@ depends=('poppler' 'phonon-qt5' 'qt5-svg' 'qt5-script' 'texlive-core')
 makedepends=('qt5-tools')
 
 source=("https://github.com/texstudio-org/${pkgname}/archive/${pkgver}.tar.gz")
-md5sums=('edcc9a5a2500c973829c23c31e02d62f')
+md5sums=('3bee209555bfa10f225a9ff56d6c62a4')
 build() {
   cd "${srcdir}/${pkgname}-${pkgver}"
   # Fix .desktop item.
